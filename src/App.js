@@ -3,6 +3,8 @@ import 'tachyons';
 
 import SearchComponent from './components/SearchComponent';
 import CardList from './components/CardList';
+import Scroller from './components/Scoller';
+
 import './index.css'
 function App() {
 
@@ -14,7 +16,7 @@ function App() {
   useEffect(() => {
     console.log(`rendered`)
     fetch(url).then(res => res.json()).then(res => changeRobots(res));
-  },[]);
+  },[url]);
 
 
   return (
@@ -23,13 +25,15 @@ function App() {
       <SearchComponent
         searchField={searchField}
         changeSearchField={changeSearchField}
-      />{
-        !robots.length ? <h1>Loading Contacts</h1> :
-          <CardList
-          robots={robots.filter(robot => robot.name.toLowerCase().includes(searchField.toLowerCase()))}
-        />
-      }
-
+      />
+      <Scroller>
+        {
+          !robots.length ? <h1>Loading Contacts</h1> :
+            <CardList
+              robots={robots.filter(robot => robot.name.toLowerCase().includes(searchField.toLowerCase()))}
+            />
+        }
+      </Scroller>
     </div>
   );
 }
