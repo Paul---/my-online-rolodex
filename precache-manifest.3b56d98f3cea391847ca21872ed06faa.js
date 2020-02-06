@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "63850298fb4dd2daf26b28995e28eff6",
+    "revision": "cfd8590f8d24bc5adedb8304df21c5b9",
     "url": "/my-robot-contacts/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-robot-contacts/static/css/2.eb45ad44.chunk.css"
   },
   {
-    "revision": "cd2cb7d7d8246acc7594",
+    "revision": "f5a7e9d72c51381e469a",
     "url": "/my-robot-contacts/static/css/main.681d1571.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-robot-contacts/static/js/2.b79f2e7f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cd2cb7d7d8246acc7594",
-    "url": "/my-robot-contacts/static/js/main.d58d97f7.chunk.js"
+    "revision": "f5a7e9d72c51381e469a",
+    "url": "/my-robot-contacts/static/js/main.69b0c20e.chunk.js"
   },
   {
     "revision": "a7563fedc5579eceeaaa",
