@@ -6,7 +6,7 @@ const SearchComponent = ({ searchField, changeSearchField }) => {
     changeSearchField(e.target.value);
   };
   
-  const placeholder = `Search Here`;
+  const placeholder = `Search Contacts Here`;
   
   return (
     <div>
