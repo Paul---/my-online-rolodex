@@ -2,11 +2,12 @@ import React from "react";
 import Card from "./Card";
 
 const CardList = ({ robots }) => {
-  const notFoundMessage = `No matches found`
+  const notFoundMessage = `No matches found`;
+
   return (
     <>
       {!robots.length ? (
-        <Card name={notFoundMessage}/>
+        <Card name={notFoundMessage} />
       ) : (
         robots.map(robot => {
           return (
