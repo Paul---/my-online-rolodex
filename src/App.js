@@ -4,6 +4,7 @@ import 'tachyons';
 import SearchComponent from './components/SearchComponent';
 import CardList from './components/CardList';
 import Scroller from './components/Scoller';
+import ErrorBoundary from './components/ErrorBoundary';
 
 import './index.css'
 function App() {
@@ -16,7 +17,7 @@ function App() {
   useEffect(() => {
     console.log(`rendered`)
     fetch(url).then(res => res.json()).then(res => changeRobots(res));
-  },[url]);
+  }, [url]);
 
 
   return (
@@ -28,10 +29,13 @@ function App() {
       />
       <Scroller>
         {
-          !robots.length ? <h1>Loading Contacts</h1> :
+          !robots.length ? <h1>Loading Contacts</h1> : <ErrorBoundary>
+
             <CardList
               robots={robots.filter(robot => robot.name.toLowerCase().includes(searchField.toLowerCase()))}
             />
+          </ErrorBoundary>
+
         }
       </Scroller>
     </div>
