@@ -23,10 +23,13 @@ function App() {
       <SearchComponent
         searchField={searchField}
         changeSearchField={changeSearchField}
-      />
-      <CardList
-        robots={robots.filter(robot => robot.name.toLowerCase().includes(searchField.toLowerCase()))}
-      />
+      />{
+        !robots.length ? <h1>Loading Contacts</h1> :
+          <CardList
+          robots={robots.filter(robot => robot.name.toLowerCase().includes(searchField.toLowerCase()))}
+        />
+      }
+
     </div>
   );
 }
