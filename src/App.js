@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import 'tachyons';
-//import { robots as robotlist } from "./data/robots";
 
 import SearchComponent from './components/SearchComponent';
 import CardList from './components/CardList';
@@ -15,7 +14,7 @@ function App() {
   useEffect(() => {
     console.log(`rendered`)
     fetch(url).then(res => res.json()).then(res => changeRobots(res));
-  }, [robots, searchField]);
+  },[]);
 
 
   return (
