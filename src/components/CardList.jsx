@@ -1,22 +1,21 @@
 import React from "react";
 import Card from "./Card";
 
-const CardList = ({ robots }) => {
+const CardList = ({ contacts }) => {
   const notFoundMessage = `No matches found`;
 
   return (
     <>
-      {!robots.length ? (
-        <Card name={notFoundMessage} />
+      {!contacts.length ? (
+        <Card nameFirst={notFoundMessage} />
       ) : (
-        robots.map(robot => {
+        contacts.map(contact => {
           return (
             <Card
-              key={robot.id}
-              id={robot.id}
-              name={robot.name}
-              username={robot.username}
-              email={robot.email}
+              nameFirst={contact.name.first}
+              nameLast={contact.name.last}
+              pictureUrl={contact.picture.large} 
+              email={contact.email}
             />
           );
         })

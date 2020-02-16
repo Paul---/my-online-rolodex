@@ -9,20 +9,26 @@ import ErrorBoundary from './components/ErrorBoundary';
 import './index.css'
 function App() {
 
-  const [robots, changeRobots] = useState([]);
+  const [contacts, changeContacts] = useState([]);
   const [searchField, changeSearchField] = useState('');
-  const url = `https://jsonplaceholder.typicode.com/users`;
+  const url = `https://randomuser.me/api/?results=100`;
 
 
   useEffect(() => {
-    console.log(`rendered`)
-    fetch(url).then(res => res.json()).then(res => changeRobots(res));
+    fetch(url).then(res => res.json()).then(res => {
+      const { results } = res;
+      changeContacts(results)
+    } )
+      .catch(e => console.log(`Error`));
   }, [url]);
 
+  setTimeout(() => {
+    console.log(contacts.results)
+  }, 3000);
 
   return (
     <div className="App tc">
-      <h1>My Robot Rolodex</h1>
+      <h1>My Online Rolodex</h1>
       <h5>Filter your contact list by typing in the search bar below.</h5>
       <SearchComponent
         searchField={searchField}
@@ -30,10 +36,12 @@ function App() {
       />
       <Scroller>
         {
-          !robots.length ? <h1>Loading Contacts</h1> : <ErrorBoundary>
-
+          !contacts.length ? <h1>Loading Contacts</h1> : <ErrorBoundary>
             <CardList
-              robots={robots.filter(robot => robot.name.toLowerCase().includes(searchField.toLowerCase()))}
+              contacts={contacts.filter(contact => {
+                return contact.name.first.toLowerCase().includes(searchField.toLowerCase()) || contact.name.last.toLowerCase().includes(searchField.toLowerCase())
+              }
+                )}
             />
           </ErrorBoundary>
 
