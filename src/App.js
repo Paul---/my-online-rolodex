@@ -22,7 +22,8 @@ function App() {
 
   return (
     <div className="App tc">
-      <h1>My Robot Contacts</h1>
+      <h1>My Robot Rolodex</h1>
+      <h4>Filter your contact list by typing in the search bar below.</h4>
       <SearchComponent
         searchField={searchField}
         changeSearchField={changeSearchField}
