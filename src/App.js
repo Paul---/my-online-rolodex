@@ -11,7 +11,7 @@ function App() {
 
   const [contacts, changeContacts] = useState([]);
   const [searchField, changeSearchField] = useState('');
-  const url = `https://randomuser.me/api/?results=100`;
+  const url = `https://randomuser.me/api/?results=150`;
 
 
   useEffect(() => {
