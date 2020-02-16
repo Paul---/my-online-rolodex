@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/my-robot-contacts/static/css/main.4b05dd8e.chunk.css",
-    "main.js": "/my-robot-contacts/static/js/main.76786e3c.chunk.js",
-    "main.js.map": "/my-robot-contacts/static/js/main.76786e3c.chunk.js.map",
+    "main.js": "/my-robot-contacts/static/js/main.cf8e0c0b.chunk.js",
+    "main.js.map": "/my-robot-contacts/static/js/main.cf8e0c0b.chunk.js.map",
     "runtime-main.js": "/my-robot-contacts/static/js/runtime-main.4264fb44.js",
     "runtime-main.js.map": "/my-robot-contacts/static/js/runtime-main.4264fb44.js.map",
     "static/css/2.eb45ad44.chunk.css": "/my-robot-contacts/static/css/2.eb45ad44.chunk.css",
     "static/js/2.b79f2e7f.chunk.js": "/my-robot-contacts/static/js/2.b79f2e7f.chunk.js",
     "static/js/2.b79f2e7f.chunk.js.map": "/my-robot-contacts/static/js/2.b79f2e7f.chunk.js.map",
     "index.html": "/my-robot-contacts/index.html",
-    "precache-manifest.a727bf2ea9cfc45d5014fe4fd830cd9d.js": "/my-robot-contacts/precache-manifest.a727bf2ea9cfc45d5014fe4fd830cd9d.js",
+    "precache-manifest.dce046c218cbd8717e52e55df76418d1.js": "/my-robot-contacts/precache-manifest.dce046c218cbd8717e52e55df76418d1.js",
     "service-worker.js": "/my-robot-contacts/service-worker.js",
     "static/css/2.eb45ad44.chunk.css.map": "/my-robot-contacts/static/css/2.eb45ad44.chunk.css.map",
     "static/css/main.4b05dd8e.chunk.css.map": "/my-robot-contacts/static/css/main.4b05dd8e.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.eb45ad44.chunk.css",
     "static/js/2.b79f2e7f.chunk.js",
     "static/css/main.4b05dd8e.chunk.css",
-    "static/js/main.76786e3c.chunk.js"
+    "static/js/main.cf8e0c0b.chunk.js"
   ]
 }
