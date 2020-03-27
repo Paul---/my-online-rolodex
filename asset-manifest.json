@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/my-robot-contacts/static/css/main.002d4202.chunk.css",
-    "main.js": "/my-robot-contacts/static/js/main.db0b680e.chunk.js",
-    "main.js.map": "/my-robot-contacts/static/js/main.db0b680e.chunk.js.map",
-    "runtime-main.js": "/my-robot-contacts/static/js/runtime-main.4264fb44.js",
-    "runtime-main.js.map": "/my-robot-contacts/static/js/runtime-main.4264fb44.js.map",
-    "static/css/2.eb45ad44.chunk.css": "/my-robot-contacts/static/css/2.eb45ad44.chunk.css",
-    "static/js/2.b79f2e7f.chunk.js": "/my-robot-contacts/static/js/2.b79f2e7f.chunk.js",
-    "static/js/2.b79f2e7f.chunk.js.map": "/my-robot-contacts/static/js/2.b79f2e7f.chunk.js.map",
-    "index.html": "/my-robot-contacts/index.html",
-    "precache-manifest.a7b7a8cbdc9b03b3f22829cbccab0a50.js": "/my-robot-contacts/precache-manifest.a7b7a8cbdc9b03b3f22829cbccab0a50.js",
-    "service-worker.js": "/my-robot-contacts/service-worker.js",
-    "static/css/2.eb45ad44.chunk.css.map": "/my-robot-contacts/static/css/2.eb45ad44.chunk.css.map",
-    "static/css/main.002d4202.chunk.css.map": "/my-robot-contacts/static/css/main.002d4202.chunk.css.map",
-    "static/js/2.b79f2e7f.chunk.js.LICENSE.txt": "/my-robot-contacts/static/js/2.b79f2e7f.chunk.js.LICENSE.txt"
+    "main.css": "/my-online-rolodex/static/css/main.002d4202.chunk.css",
+    "main.js": "/my-online-rolodex/static/js/main.55678e82.chunk.js",
+    "main.js.map": "/my-online-rolodex/static/js/main.55678e82.chunk.js.map",
+    "runtime-main.js": "/my-online-rolodex/static/js/runtime-main.029115e2.js",
+    "runtime-main.js.map": "/my-online-rolodex/static/js/runtime-main.029115e2.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/my-online-rolodex/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.b79f2e7f.chunk.js": "/my-online-rolodex/static/js/2.b79f2e7f.chunk.js",
+    "static/js/2.b79f2e7f.chunk.js.map": "/my-online-rolodex/static/js/2.b79f2e7f.chunk.js.map",
+    "index.html": "/my-online-rolodex/index.html",
+    "precache-manifest.037e50de59ccfce18af732ba384a8716.js": "/my-online-rolodex/precache-manifest.037e50de59ccfce18af732ba384a8716.js",
+    "service-worker.js": "/my-online-rolodex/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/my-online-rolodex/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.002d4202.chunk.css.map": "/my-online-rolodex/static/css/main.002d4202.chunk.css.map",
+    "static/js/2.b79f2e7f.chunk.js.LICENSE.txt": "/my-online-rolodex/static/js/2.b79f2e7f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4264fb44.js",
+    "static/js/runtime-main.029115e2.js",
     "static/css/2.eb45ad44.chunk.css",
     "static/js/2.b79f2e7f.chunk.js",
     "static/css/main.002d4202.chunk.css",
-    "static/js/main.db0b680e.chunk.js"
+    "static/js/main.55678e82.chunk.js"
   ]
 }
