@@ -7,6 +7,11 @@ Check out the live version here: [https://paul---.github.io/my-online-rolodex/](
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Built With
+
+* [React](http://www.reactjs.org/) - The JavaScript web framework used
+* [Tachyons](https://www.npmjs.com/package/tachyons/) - Predefined CSS styling
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -51,11 +56,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-## Built With
-
-* [React](http://www.reactjs.org/) - The JavaScript web framework used
-* [Tachyons](https://www.npmjs.com/package/tachyons/) - Predefined CSS styling
 
 ## License
 
